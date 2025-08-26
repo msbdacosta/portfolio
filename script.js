@@ -12,7 +12,7 @@ function updateTime() {
 }
 
 updateTime();
-setInterval(updateTime, 60000);
+setInterval(updateTime, 15000);
 
 document.addEventListener("mousemove", function (e) {
   const profileImage = document.querySelector(".profile-image");
